@@ -1,0 +1,275 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #363636;
+    display: grid;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    user-select: none;
+}
+
+.home {
+    display: column;
+    text-align: center;
+}
+
+.home a {
+    font-size: 5em;
+    display: grid;
+    color: aliceblue;
+    margin: 1% 40%;
+    transition: 1s linear;
+}
+
+.home a:hover {
+    border-radius: 8px;
+    background-color:#4e4e4e;
+}
+
+h1 {
+    font-size: 10em;
+    color:rgb(74, 134, 187);
+    user-select: none;
+}
+
+h2 {
+    font-size: 6em;
+    margin-top: 5px;
+    color:rgb(74, 134, 187);
+    user-select: none;
+}
+
+.top-line {
+    display: flex;
+    gap: 2em;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+label {
+    font-size: 3em;
+    margin-top: 50px;
+    margin-left: 50px;
+    color:rgb(74, 134, 187);
+    user-select: none;
+    margin-bottom: 100px;
+}
+
+input[name="search"] {
+    font-size: 1.5em;
+    color:aliceblue;
+    width: 400px;
+    height: 40px;
+    outline: none;
+}
+
+#search-rolle {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    size: 9;
+    background-color:#4e4e4e;
+    border-style: hidden;
+}
+
+.center {
+    position: relative;
+    bottom: 27px;
+    display: flex;
+}
+
+.left-line {
+    margin: 1.4% 10% 1% 0;
+    display: grid;
+    gap: 2em;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 200%;
+}
+
+.left-line a {
+    font-size: 3em;
+    display: inline-block;
+    color: aliceblue;
+    transition: 0.5s linear;
+    margin-right: auto;
+}
+
+.left-line a:hover{
+    border-radius: 8px;
+    background-color: #4e4e4e;
+}
+
+.right-line {
+    gap: 2em;
+    display: flex;
+    width: 75%;
+}
+.rolles-1 {
+    top: 40px;
+    position: relative;
+    display: grid;
+    gap: 2em;
+    border-style: none;
+}
+
+.rolles-2 {
+    top: 40px;
+    position: relative;
+    display: grid;
+    gap: 2em;
+    border-style: none;
+}
+
+.rolles-3 {
+    top: 40px;
+    position: relative;
+    display: grid;
+    gap: 2em;
+    border-style: none;
+}
+
+.rolles-4 {
+    top: 40px;
+    position: relative;
+    display: grid;
+    gap: 2em;
+    border-style: none;
+}
+
+.rolles {
+    height: 300px;
+    width: 250px;
+    display: column;
+    text-align: center;
+    color: aliceblue;
+    background-color: #4e4e4e;
+    border-radius: 5px;
+    position: relative;
+}
+
+.rolles-top {
+    display: flex;
+    /*gap: 4em;*/
+}
+
+.rolles-center {
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    font-size: 1.5em;
+    position: relative;
+    padding-top: 15%;
+}
+
+.img-wrapper {
+    position: relative;
+    padding-top: 120%;
+    overflow: hidden;
+}
+
+.img-wrapper img{
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    width: 100%;
+    opacity: 1;
+
+    -webkit-transition: opacity 150ms;
+    -moz-transition: opacity 150ms;
+    -ms-transition: opacity 150ms;
+    transition: opacity 150ms;
+}
+
+.img-wrapper.loaded img{
+    opacity: 1;
+}
+
+.rolle-name{
+    font-size: 100%;
+}
+
+.rolle-description {
+    font-size: 60%;
+}
+
+.info {
+    position: absolute;
+    right: 1px;
+    top: 0.2px;
+}
+
+.info a{
+    position: relative;
+    height: 8%;
+    display: grid;
+    background-color: #ffffff;
+    color: #4a86bb;
+    border-style: hidden;
+    border-radius: 2.5px;
+}
+
+.rolles-bottom {
+    display: flex;
+    gap: 16em;
+    position: absolute;
+    bottom: 0;
+}
+
+.author {
+    text-align: end;
+    position: relative;
+    right: 22%;
+}
+
+.login-central {
+    position: relative;
+    margin-left: 300px;
+    top: 40px;
+}
+
+.under-login {
+    color: #4a86bb;
+    font-size: 3.5em;
+    user-select: none;
+
+}
+
+input[name="login"] {
+    font-size: 1.5em;
+    color:aliceblue;
+    width: 400px;
+    height: 40px;
+    outline: none;
+}
+
+input[name="password"] {
+    font-size: 1.5em;
+    color:aliceblue;
+    width: 400px;
+    height: 40px;
+    outline: none;
+}
+
+#login {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    size: 9;
+    background-color:#4e4e4e;
+    border-style: hidden;
+}
+
+#password {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    size: 9;
+    background-color:#4e4e4e;
+    border-style: hidden;
+}
