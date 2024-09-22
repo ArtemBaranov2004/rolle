@@ -82,7 +82,7 @@ input[name="search"] {
 }
 
 .left-line {
-    margin: 1.4% 10% 1% 0;
+    margin: 1.4% 2% 1% 0;
     display: grid;
     gap: 2em;
     border-style: solid;
@@ -90,7 +90,7 @@ input[name="search"] {
     border-left: none;
     border-bottom: none;
     padding-top: 20px;
-    padding-right: 10px;
+    padding-right: 25px;
     padding-bottom: 200%;
 }
 
@@ -110,7 +110,6 @@ input[name="search"] {
 .right-line {
     gap: 2em;
     display: flex;
-    width: 75%;
 }
 .rolles-1 {
     top: 40px;
@@ -128,25 +127,9 @@ input[name="search"] {
     border-style: none;
 }
 
-.rolles-3 {
-    top: 40px;
-    position: relative;
-    display: grid;
-    gap: 2em;
-    border-style: none;
-}
-
-.rolles-4 {
-    top: 40px;
-    position: relative;
-    display: grid;
-    gap: 2em;
-    border-style: none;
-}
-
 .rolles {
     height: 300px;
-    width: 250px;
+    width: 725px;
     display: column;
     text-align: center;
     color: aliceblue;
@@ -161,25 +144,28 @@ input[name="search"] {
 }
 
 .rolles-center {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 40px;
+    margin-right: 40px;
     align-items: center;
     font-size: 1.5em;
+    position: absolute;
+    display: flex;
+}
+
+.rolles-center-right {
     position: relative;
-    padding-top: 15%;
+    display: column;
 }
 
 .img-wrapper {
+    margin-right: 25px;
+    top: 55px;
     position: relative;
-    padding-top: 120%;
-    overflow: hidden;
 }
 
 .img-wrapper img{
-    position: absolute;
-    right: 0;
-    bottom: 15px;
-    width: 100%;
+    position: relative;
+    width: 200px;
     opacity: 1;
 
     -webkit-transition: opacity 150ms;
@@ -225,8 +211,8 @@ input[name="search"] {
 
 .author {
     text-align: end;
-    position: relative;
-    right: 22%;
+    position: absolute;
+    left: 675px;
 }
 
 .login-central {
