@@ -279,3 +279,23 @@ input[name="password"] {
     border-radius: 8px;
     background-color:#4e4e4e;
 }
+
+.login-bttn-up {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.login-bttn{
+    font-size: 5em;
+    display: grid;
+    background-color: #363636;
+    color: aliceblue;
+    margin: 1% 40%;
+    transition: 1s linear;
+    border-style: none;
+}
+
+.login-bttn:hover{
+    border-radius: 8px;
+    background-color:#4e4e4e;
+}
